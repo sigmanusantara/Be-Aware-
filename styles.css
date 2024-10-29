@@ -3,11 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #E8EAE6; /* Light sage green background */
 }
 
 header {
-    background: #4CAF50;
+    background: #8AA399; /* Sage green for header */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -32,19 +32,19 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    background: white;
+    background: #FFFFFF; /* White background for main content */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #4CAF50;
+    color: #8AA399; /* Sage green for headings */
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #4CAF50;
+    background: #8AA399; /* Match header color */
     color: white;
     position: relative;
     bottom: 0;
