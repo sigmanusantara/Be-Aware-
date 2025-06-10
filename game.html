@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play Game - Mental Health Awareness</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.11.0/brython.min.js"></script>
 </head>
-    <script type="text/javascript">
-    window.onload = function() {
-        brython();
-    }
+
 </script>
 <body>
     <header>
-        <h1>Mental Health Awareness</h1>
+        <h1> It'a Okay To Not Be Okay -- </h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home </a></li>
@@ -35,47 +31,7 @@
                 <li>Answer questions to gain points.</li>
                 <li>Complete levels to unlock helpful resources!</li>
             </ul>
-<script type="text/python">
-from browser import document, html, alert
-
-thoughts = [
-    {"negative": "Aku selalu gagal.", "positive": "Aku bisa belajar dari kesalahan dan mencoba lagi."},
-    {"negative": "Tidak ada yang peduli padaku.", "positive": "Ada orang yang peduli, aku hanya perlu membuka diri."},
-    {"negative": "Aku tidak cukup baik.", "positive": "Aku cukup, dan terus berkembang setiap hari."}
-]
-
-score = 0
-index = 0
-
-def show_thought(ev=None):
-    global index
-    if index < len(thoughts):
-        neg = thoughts[index]["negative"]
-        document["prompt"].text = f"Pikiran Negatif: \"{neg}\""
-    else:
-        document["prompt"].text = "🎉 Kamu telah menyelesaikan semua pikiran negatif!"
-        document["options"].clear()
-
-def replace_thought(ev):
-    global index, score
-    pos = thoughts[index]["positive"]
-    alert(f"Pikiran diganti: {pos}")
-    score += 1
-    index += 1
-    show_thought()
-
-document <= html.H2("🕵️‍♂️ Thought Detective")
-document <= html.P("Temukan dan ubah pikiran negatif dengan pikiran positif!", Id="prompt")
-
-options_div = html.DIV(Id="options")
-btn = html.BUTTON("Ubah Pikiran", Id="change", Class="btn")
-btn.bind("click", replace_thought)
-options_div <= btn
-document <= options_div
-
-show_thought()
-</script>
-
+            
             <!-- Embed your Scratch game here -->
             <iframe src="https://scratch.mit.edu/projects/1087914515/embed" allowfullscreen width="485" height="402"></iframe>
 
