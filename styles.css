@@ -41,15 +41,6 @@ h2 {
     color: #8AA399; /* Sage green for headings */
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #8AA399; /* Match header color */
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
 .btn {
   padding: 10px 15px;
   background-color: #6c63ff;
@@ -62,4 +53,14 @@ footer {
 
 .btn:hover {
   background-color: #574fd6;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #8AA399; /* Match header color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
