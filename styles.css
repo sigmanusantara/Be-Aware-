@@ -41,20 +41,6 @@ h2 {
     color: #8AA399; /* Sage green for headings */
 }
 
-.btn {
-  padding: 10px 15px;
-  background-color: #6c63ff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.btn:hover {
-  background-color: #574fd6;
-}
-
 footer {
     text-align: center;
     padding: 1rem 0;
